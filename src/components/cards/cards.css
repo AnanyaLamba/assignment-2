@@ -1,8 +1,93 @@
-.card_conatiner{
-    height: 170px;
+.job-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px;
+    width: 80vw;
+    margin: 100px auto;
+  }
+  
+  .job-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
     width: 325px;
-    border-radius: 8px;
-    border: 1px;
-    padding: 24px;
-    
-}
+    background: #ffffff; /* Default solid background */
+    transition:  0.3s ease, box-shadow 0.3s ease, border 0.3s ease; /* Smooth transition */
+  }
+  
+  .job-card:hover {
+    background: 
+                linear-gradient(90deg, #FFF6E6 0%, #FFFFFF 100%);
+    border: 1px solid #E4E5E8;
+    box-shadow: 0px 2px 18px 0px #18191C08; /* Hover shadow */
+    transition:  0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  }
+  
+  
+  
+  
+  .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  .salary {
+    display: flex;
+    justify-content: flex-start; /* Space between remote and salary */
+    font-size: 14px;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  .salary-para{
+    font-size: 14px;
+    font-weight: 400;
+    color: #767F8C;
+
+  }
+
+  .remote{
+    color:  #0BA02C;
+    background: #E7F6EA;
+
+  }
+  
+  .company {
+    display: flex;
+    align-items: flex-start; /* Align logo and text at the top */
+    gap: 10px; /* Space between logo and text */
+    font-size: 14px;
+  }
+  
+  .company img {
+    width: 48px; /* Set the logo size */
+    height: 48px;
+  }
+  
+  .company-text {
+    display: flex;
+    flex-direction: column; /* Stack name and location vertically */
+    justify-content: flex-start; /* Align text to the top */
+  }
+  
+  .company-text p {
+    margin: 0; /* Remove default margin */
+    white-space: nowrap; /* Prevent text from wrapping */
+    /* border: 1px solid black; */
+    text-align: left;
+  }
+  
+  .company-text p:first-child {
+    font-weight: bold; /* Make the company name bold */
+  }
+  
+  
+  .job-card p {
+    margin: 5px 0;
+  }
+  
