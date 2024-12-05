@@ -1,0 +1,41 @@
+.left {
+  width: 258px;
+  height: 40px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.left h3 {
+  font-size: 24px;
+}
+.container {
+  border: 2px solid #E4E5E8;
+  height: 88px;
+  /* width: 1928px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.my_job {
+  font-family: inter;
+  color: #9199a3;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+}
+
+.bell {
+  height: 48px;
+  width: 96px;
+  display: flex;
+  gap: 24px;
+}
