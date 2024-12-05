@@ -15,4 +15,10 @@
    
     display: flex;
     justify-content: space-around;
+    padding-top: 24px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 24px;
+    width: 130px;
+   
 }

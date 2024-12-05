@@ -6,7 +6,7 @@
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 300px;
+  margin-left: 200px;
   margin-right: 300px;
 }
 .left h3 {
@@ -20,7 +20,7 @@
   justify-content: space-around;
 }
 
-.right {
+.nav_right {
   display: flex;
   justify-content: space-evenly;
 }
@@ -31,7 +31,10 @@
   font-size: 16px;
   font-weight: 400;
   display: flex;
+  /* padding-top: 31px;
+  padding-bottom: 33px; */
 }
+
 
 .bell {
   height: 48px;

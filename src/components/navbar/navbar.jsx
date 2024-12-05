@@ -11,7 +11,7 @@ const Navbar = () => {
         <img src={briefcase} alt="briefcase" />
         <h3>Explorin Solutions</h3>
       </div>
-      <div className="right">
+      <div className="nav_right">
         <div className="my_job">
           <img src={job} alt="job" />
           <h2>My saved jobs only</h2>
